@@ -1,0 +1,218 @@
+header{
+	background: url(img/header.png);
+	background-size: cover;
+	height: 670px;
+}
+header hr{
+	height: 2px;
+    width: 50px;
+    text-align: center;
+    position: relative;
+    background: #00e0d0;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    border: 0;
+}
+
+header .d-flex{
+	height: 594px;
+/*	max-width: 750px;
+*/
+}
+header p{
+	max-width: 750px;
+}
+button{
+	
+}
+.btn{
+	padding: 14px 20px;
+	color: #00e0d0;
+	border-color: #00e0d0; 
+	font-size: 16px;
+	font-weight: 700;
+	letter-spacing: 0.1em;
+}
+.btn:hover{
+	padding: 14px 20px;
+	color: #fff;
+	background-color: #5231e1;
+	border-color: #5231e1; 
+	font-size: 16px;
+	font-weight: 700;
+}
+#head{
+
+}
+#about{
+	
+	padding: 45px;
+}
+#about h2{
+	padding: 15px 0;
+}
+#about img{
+	padding: 15px 0;
+}
+#video{
+	max-height: 550px;
+	background: url(img/ove.png);
+	background-size: cover;
+    
+	height: 550px;
+	
+}
+
+#video img{
+	padding: 14px;
+}
+#video h4{
+	color: white;
+	padding: 20px;
+}
+#expertise{
+	padding: 80px 0;
+    
+}
+hr{
+	height: 2px;
+    width: 50px;
+    text-align: center;
+    position: relative;
+    background: #c6c4c9;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    border: 0;
+}
+#team{
+	/*max-height: 710px;*/
+	background: url(img/team.png);
+	background-size: cover;
+	padding-bottom: 70px;
+	padding-top: 70px;
+    	
+}
+#team h2{
+	padding-bottom: 15px;
+	margin-bottom: 0px;
+}
+#team .btn{
+	margin-top: 10px;
+}
+.card{
+	max-width: 190px;
+	background-color: transparent;
+	margin-bottom: 25px;
+}
+.card-body{
+	border: 5px;
+	border-color: #03a7eb;
+}
+.card_img1 {
+/*max-height: 250px;
+	max-width: 400px;*/
+	    /*position: absolute;*/
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    color: transparent;
+    transition: all 0.5s ease;
+    background: url(img/rev11.png) center center / 50px no-repeat rgb(230, 230, 230);
+    border-width: initial;
+    border-style: none;
+    border-color: initial;
+    border-image: initial;
+    outline: none;
+    border-radius: 3px 3px 0px 0px;
+}
+.card-body{
+	padding-left: 0;
+	padding-right: 0;
+
+}
+
+.card-body span{
+	font-size: 13px;
+	/*text-indent: 13px;*/
+	font-weight: 700;
+	color: #f4f3f6;
+}
+.card-body p{
+
+	font-size: 14px;
+	color: #f4f3f6;
+	margin: 0;
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+	.team-text{
+		padding-top: 20px;
+		
+	}
+}
+#contact{
+	padding-bottom: 70px;
+	padding-top: 70px;
+}
+#contact h2{
+	font-size: 22px;
+	color: #413d4b;
+	padding-bottom: 24px;
+}
+#contact img{
+	margin-top: 24px;
+	margin-bottom: 24px;
+}
+.row{
+
+}
+@media screen and (max-width: 575px) {
+	#contact{
+		text-align: center;
+		
+	}
+	.row{
+		justify-content: center;
+
+	}
+}
+#contact .btn{
+	padding-left:30px;
+	padding-right:30px;
+	font-size: 16px;
+}
+.form-group{
+	margin-bottom: 22px;
+}
+footer{
+	background: url(img/footer.png);
+	background-size: cover;
+	height: 400px;
+	padding-bottom: 70px;
+	padding-top: 70px;
+}
+footer img{
+	margin-bottom: 25px;
+}
+footer p{
+
+	color: #fff;
+	font-weight: 300;
+
+	margin: 0;
+	line-height: 1.75;
+	letter-spacing: 0.3pt;
+}
+footer h5{
+	color: #fff;
+	margin-bottom: 50px;
+}
+svg{
+	fill: #fff;
+	
+}
