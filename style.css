@@ -3,6 +3,9 @@ header{
 	background-size: cover;
 	height: 670px;
 }
+header span{
+	color: #00e0d0;
+}
 header hr{
 	height: 2px;
     width: 50px;
@@ -21,9 +24,11 @@ header .d-flex{
 }
 header p{
 	max-width: 750px;
+	margin-bottom: 50px;
+	line-height: 1.75;
 }
-button{
-	
+header h2{
+	margin-bottom: 20px;
 }
 .btn{
 	padding: 14px 20px;
@@ -155,16 +160,16 @@ hr{
 		
 	}
 }
-#contact{
+#client{
 	padding-bottom: 70px;
 	padding-top: 70px;
 }
-#contact h2{
+#client h2{
 	font-size: 22px;
 	color: #413d4b;
 	padding-bottom: 24px;
 }
-#contact img{
+#client img{
 	margin-top: 24px;
 	margin-bottom: 24px;
 }
@@ -172,7 +177,7 @@ hr{
 
 }
 @media screen and (max-width: 575px) {
-	#contact{
+	#client{
 		text-align: center;
 		
 	}
@@ -181,7 +186,7 @@ hr{
 
 	}
 }
-#contact .btn{
+#client .btn{
 	padding-left:30px;
 	padding-right:30px;
 	font-size: 16px;
@@ -192,12 +197,12 @@ hr{
 footer{
 	background: url(img/footer.png);
 	background-size: cover;
-	height: 400px;
+	
 	padding-bottom: 70px;
 	padding-top: 70px;
 }
 footer img{
-	margin-bottom: 25px;
+	/*margin-bottom: 25px;*/
 }
 footer p{
 
@@ -210,9 +215,14 @@ footer p{
 }
 footer h5{
 	color: #fff;
-	margin-bottom: 50px;
+	/*height: 68px;*/
+	/*margin-bottom: 50px;*/
 }
 svg{
 	fill: #fff;
 	
+}
+.send{
+	max-height: 38px;
+
 }
