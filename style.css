@@ -1,7 +1,7 @@
 header{
 	background: url(img/header.png);
 	background-size: cover;
-	height: 670px;
+	min-height: 670px;
 }
 header span{
 	color: #00e0d0;
@@ -159,6 +159,7 @@ hr{
 		padding-top: 20px;
 		
 	}
+
 }
 #client{
 	padding-bottom: 70px;
@@ -176,6 +177,9 @@ hr{
 .row{
 
 }
+.j-c-c{
+		justify-content: space-between;
+	}
 @media screen and (max-width: 575px) {
 	#client{
 		text-align: center;
@@ -185,7 +189,12 @@ hr{
 		justify-content: center;
 
 	}
+	.p-l-15{
+		margin-left: 30px; 
+	}
+
 }
+
 #client .btn{
 	padding-left:30px;
 	padding-right:30px;
@@ -225,4 +234,8 @@ svg{
 .send{
 	max-height: 38px;
 
+}
+footer a{
+	text-decoration: none;
+	display: block;
 }
